@@ -12,6 +12,7 @@
  #lia-body .lia-content .lia-message-body pre.language-lua,
  #lia-body .lia-content .lia-message-body pre.language-java {
     background-color: #ffffff;
+    font-family:  Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 }
 
 code[class*="language-"],
@@ -102,9 +103,12 @@ pre[class*="language-"] {
 	font-weight: bold;
 }
 
+.token.string {
+	color: #800080;
+}
+
 .token.selector,
 .token.attr-name,
-.token.string,
 .token.char,
 .token.builtin,
 .token.inserted {
